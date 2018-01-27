@@ -8,7 +8,7 @@ namespace Round2
         {
             InitializeComponent();
 
-            MainPage = new Round2Page();
+            MainPage = new Round2.Pages.StackLayoutPage();
         }
 
         protected override void OnStart()

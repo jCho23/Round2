@@ -30,7 +30,7 @@
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
     <EmbeddedResource Include="Round2Page.xaml" />
-    <EmbeddedResource Include="Pages\StackLayout.xaml">
+    <EmbeddedResource Include="Pages\StackLayoutPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -43,8 +43,8 @@
       <DependentUpon>Round2Page.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Pages\StackLayout.xaml.cs">
-      <DependentUpon>StackLayout.xaml</DependentUpon>
+    <Compile Include="Pages\StackLayoutPage.xaml.cs">
+      <DependentUpon>StackLayoutPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
